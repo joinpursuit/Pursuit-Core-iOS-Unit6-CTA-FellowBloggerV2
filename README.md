@@ -95,13 +95,13 @@ See the screenshots below for more per screen detail.
 ## Bloggers Collection Database Schema 
 
 <p align="center">
-  <img src="/bloggers-collection.png" width="900" height="600" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/bloggers-collection.png" width="900" height="600" />
 </p>
 
 ## Blogs Collection Database Schema 
 
 <p align="center">
-  <img src="blogs-collection.png" width="900" height="600" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/blogs-collection.png" width="900" height="600" />
 </p>
 
 # Screens
@@ -115,7 +115,7 @@ See the screenshots below for more per screen detail.
 - password **required**  
 
 <p align="center">
-  <img src="/create-account-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Account%20Login/create-account-view.png" width="250" height="541" />
 </p>
 
 **Login View**  
@@ -124,7 +124,7 @@ See the screenshots below for more per screen detail.
 - password **required**  
 
 <p align="center">
-  <img src="/login-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Account%20Login/login-view.png" width="250" height="541" />
 </p>
 
 
@@ -137,7 +137,7 @@ See the screenshots below for more per screen detail.
 - add bar button item segues to an add blog view (there the user is able to create a blog post) 
 
 <p align="center">
-  <img src="/blog-feed-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/blog-feed-view.png" width="250" height="541" />
 </p>
 
 **Add Blog**  
@@ -150,7 +150,7 @@ See the screenshots below for more per screen detail.
 - cancel button 
 
 <p align="center">
-  <img src="/add-blog-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/add-blog-view.png" width="250" height="541" />
 </p>
 
 **Blog Detail View**  
@@ -163,7 +163,7 @@ See the screenshots below for more per screen detail.
 - make sure you account for a longer description by using a scroll view
 
 <p align="center">
-  <img src="/blog-detail-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/blog-detail-view.png" width="250" height="541" />
 </p>
 
 **Blog Detail Actions**  
@@ -171,12 +171,12 @@ See the screenshots below for more per screen detail.
 - more info button (actions include, save image, edit blog, delete blog, cancel)
 
 <p align="center">
-  <img src="/blog-detail-actions.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/blog-detail-actions.png" width="250" height="541" />
 </p>
 
 **Blog Detail Confirm Delete**  
 <p align="center">
-  <img src="/blog-detail-confirm-delete.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/blog-detail-confirm-delete.png" width="250" height="541" />
 </p>
 
 ## Search Tab 
@@ -187,7 +187,7 @@ See the screenshots below for more per screen detail.
 - when a blogger is selected from the search, the user is taken to that blogger's profile page
 
 <p align="center">
-  <img src="/search-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Search%20Tab/search-view.png" width="250" height="541" />
 </p>
 
 
@@ -203,7 +203,7 @@ See the screenshots below for more per screen detail.
 - all blogs created by the user
 
 <p align="center">
-  <img src="/profile-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Profile%20Tab/profile-view.png" width="250" height="541" />
 </p>
 
 **Edit Profile View**  
@@ -211,12 +211,12 @@ See the screenshots below for more per screen detail.
 - cover photo, profile photo, first name, last name, username and bio are all editable
 
 <p align="center">
-  <img src="/edit-profile-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Profile%20Tab/edit-profile-view.png" width="250" height="541" />
 </p>
 
 **Edit Profile Photo**  
 <p align="center">
-  <img src="/edit-profile-photo.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Profile%20Tab/edit-profile-photo.png" width="250" height="541" />
 </p>
 
 **Edit Bio View**  
@@ -224,7 +224,7 @@ See the screenshots below for more per screen detail.
 - selecting the bio cell segues to an edit bio view
 
 <p align="center">
-  <img src="/edit-bio-view.png" width="250" height="541" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Profile%20Tab/edit-bio-view.png" width="250" height="541" />
 </p>
 
 # Rubric
