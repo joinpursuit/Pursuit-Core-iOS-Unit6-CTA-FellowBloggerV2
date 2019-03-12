@@ -14,7 +14,7 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 - Download the GoogleService-Info.plist file provided and add to your Xcode project. **Reminder** The .plist file must be named as is **GoogleService-Info.plist** , any parenthethis e.g (2) in the name will result in a runtime crash from Firebase
 - We will be monitoring your commits as a way to avoid inconsitencies and educational integrity with your work, commit regularly (at least 3 - 5 commits per day at minimum)
 - Create a "dev-yourname" e.g "dev-alexpaul" branch so you can make pull requests against "master"
-- You can make your first pull request against "master" as early as Monday to be reviewed by the instruction staff, the latest day to make your first pull request is Wedneday 
+- You can make your first pull request against "master" as early as Monday 10 am to be reviewed by the instruction staff, the latest day to make your first pull request is Wednesday at 10 am 
 - After your PR (pull request) has been approved by an instruction staff member it will then be merged to the "master" branch
 - You are required to be in class throughout this week while working on this assessment
 - Your commit history and progress will determine if you have the option to work from home next week, however if your commit history is dropping and progress as well you will be required to continue working on the assessment at Pursuit. 
