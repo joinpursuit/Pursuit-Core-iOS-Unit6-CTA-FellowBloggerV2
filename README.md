@@ -106,6 +106,10 @@ See the screenshots below for more per screen detail.
 
 # Screens
 
+## Gif 
+
+![fellow blogger app](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/fellow-blogger-app.gif)
+
 ## Account Login Views 
 
 **Create Account View**  
