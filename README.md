@@ -94,11 +94,29 @@ See the screenshots below for more per screen detail.
 
 ## Bloggers Collection Database Schema 
 
+- a bloggers collection document fields are: 
+- bio
+- bloggerId
+- coverImageURL
+- displayName
+- email
+- firstName
+- lastName
+- joinedDate
+- photoURL 
+
 <p align="center">
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/bloggers-collection.png" width="900" height="600" />
 </p>
 
 ## Blogs Collection Database Schema 
+
+- the blogs collection document fields are: 
+- blogDescription
+- bloggerId
+- createdDate
+- documentId
+- imageURL 
 
 <p align="center">
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/blogs-collection.png" width="900" height="600" />
