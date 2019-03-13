@@ -51,6 +51,15 @@ target 'FellowBloggerV2Tests' do
 end
 ```
 
+## Instruction Staff Github Accounts
+
+**Instructors** 
+Alan Holguin [Github](https://github.com/lynksdomain) - lynksdomain
+Alex Paul [Github](https://github.com/alexpaul) - alexpaul
+
+**TAs**   
+Iram Fattah [Github](https://github.com/) - 
+
 ## Project Specifications 
 
 1. The app requires the user to login or create a new account in order to blog or view blogs.
