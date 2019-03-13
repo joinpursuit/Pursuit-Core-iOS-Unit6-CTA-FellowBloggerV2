@@ -275,12 +275,12 @@ Extra Credit 28 Points
 
 **Comments Collection**  
 <p align="center">
-  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/comments-collection.png" width="900" height="600" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/comments-collection.png" width="900" height="500" />
 </p>
 
 **Comments Collection Details**  
 <p align="center">
-  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/comments-collection-details.png" width="900" height="600" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/comments-collection-details.png" width="900" height="500" />
 </p>
 
 
