@@ -1,6 +1,6 @@
 # Comprehensive Technical Assessment (CTA) - FellowBloggerV2
 
-Welcome to the compreshensive technical assessment iOS final. You will be building a blogging app. The FellowBloggerV2 is a blogging app that enables users to post and view other blogs created by fellow bloggers. The backend is created using Firebase. The database has existing data. You will be using the included GoogleService-Info.plist file to read and write to Firebase. Everyone will be using the same database to give the project a more real life feel with having existing users. Firebase handles authentication, database and storage requirements for the app. [Firebase Stack](https://github.com/alexpaul/FirebaseStack).
+Welcome to the compreshensive technical assessment iOS final. You will be building a blogging app. The FellowBloggerV2 is a blogging app that enables users to post and view other blogs created by fellow bloggers. The backend is created using Firebase. The database has existing data. You will be using the included GoogleService-Info.plist file to read and write to Firebase. Everyone will be using the same database to give the project a more real life feel with having existing users. Firebase handles authentication, database and storage requirements for the app. 
 
 As you continue to work through this project make regular commits because we will be monitoring your commit history for code consistency and educational integrity. 
 
