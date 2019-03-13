@@ -120,7 +120,7 @@ See the screenshots below for more per screen detail.
 
 ## Extra Credit Checklist
 
-- [ ] user can like a blog and view in a favorites tab
+- [ ] user can like a blog and view in a likes view
 - [ ] user can share a blog 
 - [ ] user can comment on a blog (see database schema for document fields)  
 - [ ] user can view comments of a blog
