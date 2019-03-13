@@ -40,6 +40,7 @@ def fellow_blogger_pods
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'Kingfisher'
+  pod 'Toucan'
 end
 
 target 'FellowBloggerV2' do
