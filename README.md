@@ -15,8 +15,11 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 - Install the Firebase pods including Kingfisher and Toucan (see Podfile code snippet below)
 - After pods are installed open up .xcworkspace
 - Download the GoogleService-Info.plist file provided and add to your Xcode project. **Reminder** The .plist file must be named as is **GoogleService-Info.plist** , any parenthethis e.g (2) in the name will result in a runtime crash from Firebase (make sure "copy items as needed" is selected)
-- We will be monitoring your commits as a way to avoid inconsitencies and educational integrity with your work, commit regularly (at least 3 - 5 commits per day at minimum)
+- git clone your repo to your computer
+- add your Xcode project to your repo
+- push to master
 - Create a "dev-yourname" e.g "dev-alexpaul" branch so you can make pull requests against "master"
+- We will be monitoring your commits as a way to avoid inconsitencies and educational integrity with your work, commit regularly (at least 3 - 5 commits per day at minimum)
 - You can make your first pull request against "master" as early as Monday 10 am to be reviewed by the instruction staff, the latest day to make your first pull request is Wednesday at 10 am 
 - After your PR (pull request) has been approved by an instruction staff member it will then be merged to the "master" branch
 - You are required to be in class throughout this week while working on this assessment
