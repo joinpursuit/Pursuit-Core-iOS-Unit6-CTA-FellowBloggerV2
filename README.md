@@ -18,7 +18,8 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 - [ ] git clone your repo to your computer
 - [ ] add your Xcode project to your repo
 - [x] push to master
-- [ ] Create a "dev-yourname" e.g "dev-alexpaul" branch so you can make pull requests against "master"
+- [ ] Create a "dev-yourname" e.g "dev-alex" branch so you can make pull requests against "master" when needed ```git checkout -b dev-alex```
+- [ ] Push your dev branch to remote e.g command ```git push --set-upstream origin dev-alex``` 
 - [ ] We will be monitoring your commits as a way to avoid inconsitencies and educational integrity with your work, commit regularly (at least 3 - 5 commits per day at minimum)
 - [ ] You can make your first pull request against "master" as early as Monday 10 am to be reviewed by the instruction staff, the latest day to make your first pull request is Wednesday at 10 am 
 - [ ] After your PR (pull request) has been approved by an instruction staff member it will then be merged to the "master" branch
