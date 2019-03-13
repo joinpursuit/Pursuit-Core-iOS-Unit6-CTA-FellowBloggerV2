@@ -17,6 +17,7 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 - [x] Download the GoogleService-Info.plist file provided and add to your Xcode project. **Reminder** The .plist file must be named as is **GoogleService-Info.plist** , any parenthethis e.g (2) in the name will result in a runtime crash from Firebase (make sure "copy items as needed" is selected)
 - [x] git clone your repo to your computer
 - [x] add your Xcode project to your repo
+- [x] add this bundle id ```com.alexcpaul.FellowBloggerV2```
 - [x] push to master
 - [x] Create a "dev-yourname" e.g "dev-alex" branch so you can make pull requests against "master" when needed ```git checkout -b dev-alex```
 - [x] Push your dev branch to remote e.g command ```git push --set-upstream origin dev-alex``` 
