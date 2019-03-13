@@ -274,17 +274,34 @@ Extra Credit 28 Points
 ## Comments Collection Database Schema 
 
 **Comments Collection**  
+
+- here a blog document has a comments collection (see comments collection details below)
+
 <p align="center">
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/comments-collection.png" width="900" height="500" />
 </p>
 
 **Comments Collection Details**  
+
+- at minimum a comments document fields are: 
+- blogId
+- commentId
+- commentText
+- commentedBy
+- createdDate 
+
 <p align="center">
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/comments-collection-details.png" width="900" height="500" />
 </p>
 
 
 ## Likes Collection Database Schema 
+
+- likes collection document fields at minimum are: 
+- blogId
+- createdDate
+- likeId
+- likedBy
 
 <p align="center">
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/likes-collection.png" width="900" height="300" />
