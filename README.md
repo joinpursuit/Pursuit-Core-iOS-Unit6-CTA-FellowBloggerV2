@@ -8,8 +8,8 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 
 ## Github / App Setup
 
-- [ ] Create a private repo
-- [ ] Add a link to this repo on your README.md
+- [x] Create a private repo
+- [x] Add a link to this repo on your README.md
 - [ ] Invite the iOS instruction staff as collaborators to your repo
 - [ ] Create an Xcode project 
 - [ ] Install the Firebase pods including Kingfisher and Toucan (see Podfile code snippet below)
