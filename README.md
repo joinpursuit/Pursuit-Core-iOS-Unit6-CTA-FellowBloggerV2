@@ -54,11 +54,11 @@ end
 ## Instruction Staff Github Accounts
 
 **Instructors**   
-Alan Holguin [Github](https://github.com/lynksdomain) - lynksdomain
-Alex Paul [Github](https://github.com/alexpaul) - alexpaul
+Alan Holguin [Github](https://github.com/lynksdomain) - lynksdomain   
+Alex Paul [Github](https://github.com/alexpaul) - alexpaul    
 
 **TAs**   
-Iram Fattah [Github](https://github.com/) - 
+Iram Fattah [Github](https://github.com/) -     
 
 ## Project Specifications 
 
