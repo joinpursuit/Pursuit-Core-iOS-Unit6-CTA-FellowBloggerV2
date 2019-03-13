@@ -9,7 +9,7 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 ## Github / App Setup
 
 - Create a private repo
-- Create a link to this README onto your repo
+- Add a link to this repo on your README.md
 - Invite the iOS instruction staff as collaborators to your repo
 - Download the GoogleService-Info.plist file provided and add to your Xcode project. **Reminder** The .plist file must be named as is **GoogleService-Info.plist** , any parenthethis e.g (2) in the name will result in a runtime crash from Firebase
 - We will be monitoring your commits as a way to avoid inconsitencies and educational integrity with your work, commit regularly (at least 3 - 5 commits per day at minimum)
