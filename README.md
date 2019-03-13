@@ -53,7 +53,7 @@ end
 
 ## Instruction Staff Github Accounts
 
-**Instructors** 
+**Instructors**   
 Alan Holguin [Github](https://github.com/lynksdomain) - lynksdomain
 Alex Paul [Github](https://github.com/alexpaul) - alexpaul
 
