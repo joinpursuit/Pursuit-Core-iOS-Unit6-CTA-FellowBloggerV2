@@ -10,8 +10,8 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 
 - [x] Create a private repo
 - [x] Add a link to this repo on your README.md
-- [ ] Invite the iOS instruction staff as collaborators to your repo
-- [ ] Create an Xcode project 
+- [x] Invite the iOS instruction staff as collaborators to your repo
+- [x] Create an Xcode project 
 - [ ] Install the Firebase pods including Kingfisher and Toucan (see Podfile code snippet below)
 - [ ] After pods are installed open up .xcworkspace
 - [ ] Download the GoogleService-Info.plist file provided and add to your Xcode project. **Reminder** The .plist file must be named as is **GoogleService-Info.plist** , any parenthethis e.g (2) in the name will result in a runtime crash from Firebase (make sure "copy items as needed" is selected)
