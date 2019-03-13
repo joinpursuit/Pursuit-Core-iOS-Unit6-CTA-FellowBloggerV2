@@ -287,5 +287,5 @@ Extra Credit 28 Points
 ## Likes Collection Database Schema 
 
 <p align="center">
-  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/likes-collection.png" width="900" height="600" />
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Extra%20Credit/likes-collection.png" width="900" height="300" />
 </p>
