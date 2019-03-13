@@ -263,12 +263,22 @@ Total 76 Points
 
 | Criteria | Points |
 |:------:|:-----:|
-| user can like a blog and view in a favorites tab | 4 |
+| user can like a blog and view in a likes view | 6 |
 | user can share a blog | 4 |
-| user can comment on a blog (see database schema for document fields) | 4 |
-| user can view comments of a blog | 4 |
-| user can block a fellow blogger (blogger will no longer appear in blog feed) | 4 |
-| user can view a bloggers github and social media page (links will be available on the blogger's profile page) | 4 |
+| user can comment on a blog and view comments | 6 |
+| user can block a fellow blogger (blogger will no longer appear in blog feed) | 6 |
+| user can view a bloggers github and social media page (links will be available on the blogger's profile page) | 6 |
 
-Extra Credit 24 Points
+Extra Credit 28 Points
 
+## Comments Collection Database Schema 
+
+<p align="center">
+  <img src="" width="900" height="600" />
+</p>
+
+## Likes Collection Database Schema 
+
+<p align="center">
+  <img src="" width="900" height="600" />
+</p>
