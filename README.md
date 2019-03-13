@@ -12,6 +12,7 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 - Add a link to this repo on your README.md
 - Invite the iOS instruction staff as collaborators to your repo
 - Create an Xcode project 
+- Install the Firebase pods including Kingfisher and Toucan (see Podfile code snippet below)
 - Download the GoogleService-Info.plist file provided and add to your Xcode project. **Reminder** The .plist file must be named as is **GoogleService-Info.plist** , any parenthethis e.g (2) in the name will result in a runtime crash from Firebase
 - We will be monitoring your commits as a way to avoid inconsitencies and educational integrity with your work, commit regularly (at least 3 - 5 commits per day at minimum)
 - Create a "dev-yourname" e.g "dev-alexpaul" branch so you can make pull requests against "master"
@@ -20,6 +21,30 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 - You are required to be in class throughout this week while working on this assessment
 - Your commit history and progress will determine if you have the option to work from home next week, however if your commit history is dropping and progress as well you will be required to continue working on the assessment at Pursuit. 
 - Your final pull request should be made on Friday (due date of the assessment)
+
+**Podfile**   
+
+```c 
+platform :ios, '12.0'
+
+use_frameworks!
+
+def fellow_blogger_pods
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Kingfisher'
+end
+
+target 'FellowBloggerV2' do
+  fellow_blogger_pods
+end
+
+target 'FellowBloggerV2Tests' do
+  fellow_blogger_pods
+end
+```
 
 ## Project Specifications 
 
