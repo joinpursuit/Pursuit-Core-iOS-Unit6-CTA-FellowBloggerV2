@@ -119,7 +119,7 @@ See the screenshots below for more per screen detail.
 - [ ] selecting a blogger from the search takes the user to the blogger's profile page
 - [ ] user can view all blogs of a fellow blogger after selecting their profile
 
-## Saving Imges to Storage 
+## Saving Images to Storage 
 
 There will be three key places images are being posted to Firebase Storage: 
 1. Profile Image 
