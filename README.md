@@ -145,7 +145,7 @@ imageName: "coverImages/\(user.uid)"
 ```
 3. For a Blog Image: 
 ```swift 
-"blogs/\(user.uid)/\(documentId)"
+imageName: "blogs/\(user.uid)/\(documentId)"
 ```
 
 **Reminder**: Use Toucan or similar resizing function to resize all images prior to posting to Firebase. 
