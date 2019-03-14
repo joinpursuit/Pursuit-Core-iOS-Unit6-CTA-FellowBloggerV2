@@ -119,6 +119,42 @@ See the screenshots below for more per screen detail.
 - [ ] selecting a blogger from the search takes the user to the blogger's profile page
 - [ ] user can view all blogs of a fellow blogger after selecting their profile
 
+## Saving Imges to Storage 
+
+There will be three key places images are being posted to Firebase Storage: 
+1. Profile Image 
+1. Cover Image 
+1. Blog Image 
+
+The default storage bucket location is **images**   
+
+Pass in the following iamge paths when calling StorageService.postImage
+
+```swift 
+postImage(imageData: Data, imageName: String, completion: @escaping (Error?, URL?) -> Void)
+```
+
+Here are the imageName paths: 
+1. For Profile Image: 
+```swift 
+imageName: "profileImages/\(user.uid)"
+```
+2. For Cover Image: 
+```swift 
+imageName: "coverImages/\(user.uid)"
+```
+3. For a Blog Image: 
+```swift 
+"blogs/\(user.uid)/\(documentId)"
+```
+
+**Reminder**: Use Toucan or similar resizing function to resize all images prior to posting to Firebase. 
+
+```swift 
+let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
+```
+
+
 ## Extra Credit Checklist
 
 - [ ] user can like a blog and view in a likes view
