@@ -1,6 +1,6 @@
 # Comprehensive Technical Assessment (CTA) - FellowBloggerV2
 
-Welcome to the compreshensive technical assessment iOS final. You will be building a blogging app. The FellowBloggerV2 is a blogging app that enables users to post and view other blogs created by fellow bloggers. The backend is created using Firebase. The database has existing data. You will be using the included GoogleService-Info.plist file to read and write to Firebase. Everyone will be using the same database to give the project a more real life feel with having existing users. Firebase handles authentication, database and storage requirements for the app. [Firebase Stack](https://github.com/alexpaul/FirebaseStack).
+Welcome to the compreshensive technical assessment iOS final. You will be building a blogging app. The FellowBloggerV2 is a blogging app that enables users to post and view other blogs created by fellow bloggers. The backend is created using Firebase. The database has existing data. You will be using the included GoogleService-Info.plist file to read and write to Firebase. Everyone will be using the same database to give the project a more real life feel with having existing users. Firebase handles authentication, database and storage requirements for the app. 
 
 As you continue to work through this project make regular commits because we will be monitoring your commit history for code consistency and educational integrity. 
 
@@ -28,7 +28,7 @@ Have fun, be creative and huge acknowledgement on your progress throughtout the 
 - [ ] Your commit history and progress will determine if you have the option to work from home next week, however if your commit history is dropping and progress as well you will be required to continue working on the assessment at Pursuit. 
 - [ ] Your final pull request should be made on Friday (due date of the assessment)
 
-**Podfile**   
+**Podfile if you (selected unit test) when you created the Xcode Project**   
 
 ```c 
 platform :ios, '12.0'
@@ -49,6 +49,26 @@ target 'FellowBloggerV2' do
 end
 
 target 'FellowBloggerV2Tests' do
+  fellow_blogger_pods
+end
+```
+
+**Podfile if you (did not) select unit test when you created the Xcode Project**   
+```c 
+platform :ios, '12.0'
+
+use_frameworks!
+
+def fellow_blogger_pods
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Kingfisher'
+  pod 'Toucan'
+end
+
+target 'FellowBloggerV2' do
   fellow_blogger_pods
 end
 ```
@@ -118,6 +138,42 @@ See the screenshots below for more per screen detail.
 - [ ] user can search for other bloggers in the search tab 
 - [ ] selecting a blogger from the search takes the user to the blogger's profile page
 - [ ] user can view all blogs of a fellow blogger after selecting their profile
+
+## Saving Images to Storage 
+
+There will be three key places images are being posted to Firebase Storage: 
+1. Profile Image 
+1. Cover Image 
+1. Blog Image 
+
+The default storage bucket location is **images**   
+
+Pass in the following iamge paths when calling StorageService.postImage
+
+```swift 
+postImage(imageData: Data, imageName: String, completion: @escaping (Error?, URL?) -> Void)
+```
+
+Here are the imageName paths: 
+1. For Profile Image: 
+```swift 
+imageName: "profileImages/\(user.uid)"
+```
+2. For Cover Image: 
+```swift 
+imageName: "coverImages/\(user.uid)"
+```
+3. For a Blog Image: 
+```swift 
+imageName: "blogs/\(user.uid)/\(documentId)"
+```
+
+**Reminder**: Use Toucan or similar resizing function to resize all images prior to posting to Firebase. 
+
+```swift 
+let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
+```
+
 
 ## Extra Credit Checklist
 
@@ -232,7 +288,8 @@ See the screenshots below for more per screen detail.
 
 **Blog Detail Actions**  
 
-- more info button (actions include, save image, edit blog, delete blog, cancel)
+- more info button (actions include, save image (save to the simulator or device's photo library), edit blog, delete blog, cancel)    
+- the blog description the only required blog edit
 
 <p align="center">
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/blog-detail-actions.png" width="250" height="541" />
