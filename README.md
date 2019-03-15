@@ -288,7 +288,7 @@ let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
 
 **Blog Detail Actions**  
 
-- more info button (actions include, save image, edit blog, delete blog, cancel)
+- more info button (actions include, save image (save to the simulator or device's photo library), edit blog, delete blog, cancel)
 
 <p align="center">
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/blog-detail-actions.png" width="250" height="541" />
