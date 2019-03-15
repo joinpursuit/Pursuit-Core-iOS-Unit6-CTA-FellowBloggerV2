@@ -295,6 +295,15 @@ let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/blog-detail-actions.png" width="250" height="541" />
 </p>
 
+**Edit Blog Post**   
+
+- requirement is to edit the blog description 
+
+<p align="center">
+  <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/edit-blog-post.png" width="250" height="541" />
+</p>
+
+
 **Blog Detail Confirm Delete**  
 <p align="center">
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/Blog%20Feed%20Tab/blog-detail-confirm-delete.png" width="250" height="541" />
