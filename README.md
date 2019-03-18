@@ -1,12 +1,25 @@
 # Comprehensive Technical Assessment (CTA) - FellowBloggerV2
 
+# Table of Contents
+  * [Github / App Setup](#github-app-setup)
+  * [Instruction Staff Github Accounts](#instruction-staff-accounts)
+  * [Project Specifications](#project-specifications)
+  * [Resources](#resources)
+  * [Collections and Client (iOS App) Model Properties](#mvp-collections)
+  * [FellowBloggerV2 MVP Checklist Requirements](#mvp-requirements) 
+  * [Saving Images to Storage](#saving-images)
+  * [Extra Credit Checklist](#extra-credit-checklist)
+  * [MVP Rubric](#mvp-rubric)
+  * [Extra Credit Rubric](#extra-credit-rubric)
+  * [Extra Credit Collections](#extra-credit-collections)
+
 Welcome to the compreshensive technical assessment iOS final. You will be building a blogging app. The FellowBloggerV2 is a blogging app that enables users to post and view other blogs created by fellow bloggers. The backend is created using Firebase. The database has existing data. You will be using the included GoogleService-Info.plist file to read and write to Firebase. Everyone will be using the same database to give the project a more real life feel with having existing users. Firebase handles authentication, database and storage requirements for the app. 
 
 As you continue to work through this project make regular commits because we will be monitoring your commit history for code consistency and educational integrity. 
 
 Have fun, be creative and huge acknowledgement on your progress throughtout the [Pursuit Core curriculum](https://github.com/joinpursuit/AC-iOS). 
 
-## Github / App Setup
+## Github / App Setup <a name="github-app-setup"></a>
 
 - [x] Create a private repo
 - [x] Add a link to this repo on your README.md
@@ -73,7 +86,7 @@ target 'FellowBloggerV2' do
 end
 ```
 
-## Instruction Staff Github Accounts
+## Instruction Staff Github Accounts <a name="instruction-staff-accounts"></a>
 
 **Instructors**   
 Alan Holguin [Github](https://github.com/lynksdomain) - lynksdomain   
@@ -82,7 +95,7 @@ Alex Paul [Github](https://github.com/alexpaul) - alexpaul
 **TAs**   
 Iram Fattah [Github](https://github.com/Ifattah94) - Ifattah94    
 
-## Project Specifications 
+## Project Specifications <a name="project-specifications"></a>
 
 1. The app requires the user to login or create a new account in order to blog or view blogs.
 1. The app's main view consists of a tab bar controller with three tabs. A blog feed tab, a search tab and a profile tab.
@@ -94,7 +107,7 @@ Iram Fattah [Github](https://github.com/Ifattah94) - Ifattah94
 
 See the screenshots below for more per screen detail.
 
-## Resources 
+## Resources <a name="resources"></a>
 
 - [RaceReviews](https://github.com/joinpursuit/Pursuit-Core-iOS-RaceReviews)
 - [NationalDish](https://github.com/alexpaul/NationalDish)
@@ -102,7 +115,7 @@ See the screenshots below for more per screen detail.
 - [Firestore](https://firebase.google.com/docs/firestore/?authuser=1)
 - [Firebase Storage](https://firebase.google.com/docs/storage/?authuser=1)
 
-## Collections and Client (iOS App) Model Properties 
+## Collections and Client (iOS App) Model Properties <a name="mvp-collections"></a>
 
 **bloggers collection on firebase, User Model (Swift)**  
 - displayName (keep this name consistent with the authenticated user's display name) 
@@ -122,7 +135,7 @@ See the screenshots below for more per screen detail.
 - blogDescription
 - documentId (hint: first create the documentId when creating a blog and save it as this field)
 
-## FellowBloggerV2 MVP Checklist Requirements
+## FellowBloggerV2 MVP Checklist Requirements <a name="mvp-requirements"></a>
 
 - [ ] user can create an account 
 - [ ] user can sign in to an existing account
@@ -139,7 +152,7 @@ See the screenshots below for more per screen detail.
 - [ ] selecting a blogger from the search takes the user to the blogger's profile page
 - [ ] user can view all blogs of a fellow blogger after selecting their profile
 
-## Saving Images to Storage 
+## Saving Images to Storage <a name="saving-images"></a>
 
 There will be three key places images are being posted to Firebase Storage: 
 1. Profile Image 
@@ -175,7 +188,7 @@ let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
 ```
 
 
-## Extra Credit Checklist
+## Extra Credit Checklist <a name="extra-credit-checklist"></a>
 
 - [ ] user can like a blog and view in a likes view
 - [ ] user can share a blog 
@@ -359,7 +372,7 @@ let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
 
 # Rubric
 
-## MVP Rubric 
+## MVP Rubric <a name="mvp-rubric"></a>
 
 | Criteria | Points |
 |:------:|:-----:|
@@ -385,7 +398,7 @@ let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
 
 Total 76 Points 
 
-## Extra Credit Rubric
+## Extra Credit Rubric <a name="extra-credit-rubric"></a>
 
 | Criteria | Points |
 |:------:|:-----:|
@@ -397,7 +410,7 @@ Total 76 Points
 
 Extra Credit 28 Points
 
-## Comments Collection Database Schema 
+## Comments Collection Database Schema <a name="extra-credit-collections"></a>
 
 **Comments Collection**  
 
