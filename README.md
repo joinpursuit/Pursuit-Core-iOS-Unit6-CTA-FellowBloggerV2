@@ -388,10 +388,10 @@ let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
 | user can view all their created blogs in the profile view controller (sort by most recent date) | 4 |
 | user can edit their profile, edits include: profile photo, cover photo, first name, last name, username and bio | 4 |
 | user can create a blog post: post includes adding a photo from camera or photo library | 4 |
-| user can edit their blog post | 4 | 
+| user can edit their blog post description | 4 | 
 | user can delete a blog post | 4 | 
 | selecting a blog post shows a detail view of the blog | 4 |
-| user can see more options via an action sheet to carry out the appropriate action e.g delete, edit, save image | 4|
+| user can see more options via an action sheet to carry out the appropriate action e.g delete, edit (edit blog description), save image (images get saved to photo library) | 4|
 | user can search for other bloggers in the search tab | 4 |
 | selecting a blogger from the search takes the user to the blogger's profile page | 4 |
 | user can view all blogs of a fellow blogger after selecting their profile | 4 |
