@@ -9,6 +9,7 @@
   * [MVP Checklist Requirements](#mvp-requirements) 
   * [Saving Images to Storage](#saving-images)
   * [Extra Credit Checklist](#extra-credit-checklist)
+  * [Screens](#screens)   
   * [MVP Rubric](#mvp-rubric)
   * [Extra Credit Rubric](#extra-credit-rubric)
   * [Extra Credit Collections](#extra-credit-collections)
@@ -233,7 +234,7 @@ let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
   <img src="https://github.com/joinpursuit/Pursuit-Core-iOS-Unit6-CTA-FellowBloggerV2/blob/master/Images/blogs-collection.png" width="900" height="600" />
 </p>
 
-# Screens
+# Screens <a name="screens"></a>
 
 ## Gif 
 
