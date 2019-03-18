@@ -6,7 +6,7 @@
   * [Project Specifications](#project-specifications)
   * [Resources](#resources)
   * [Collections and Client (iOS App) Model Properties](#mvp-collections)
-  * [FellowBloggerV2 MVP Checklist Requirements](#mvp-requirements) 
+  * [MVP Checklist Requirements](#mvp-requirements) 
   * [Saving Images to Storage](#saving-images)
   * [Extra Credit Checklist](#extra-credit-checklist)
   * [MVP Rubric](#mvp-rubric)
