@@ -11,6 +11,7 @@
   * [Extra Credit Checklist](#extra-credit-checklist)
   * [Screens](#screens)   
   * [MVP Rubric](#mvp-rubric)
+  * [Making Pull Request](#making-pull-request)
   * [Extra Credit Rubric](#extra-credit-rubric)
   * [Extra Credit Collections](#extra-credit-collections)
 
@@ -398,6 +399,14 @@ let resizeImage = Toucan(image: image).resize(CGSize(width: 500, height: 500))
 | user can view all blogs of a fellow blogger after selecting their profile | 4 |
 
 Total 76 Points 
+
+## Making Pull Request <a name="making-pull-request"></a>
+
+1. Choose your dev branch and compare with the master branch
+2. Create the pull request
+3. Leave a message and tag @alexpaul and @lynksdomain on the pull request
+
+[see github for more info](https://help.github.com/en/articles/creating-a-pull-request)     
 
 ## Extra Credit Rubric <a name="extra-credit-rubric"></a>
 
